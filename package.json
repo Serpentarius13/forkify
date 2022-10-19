@@ -1,0 +1,30 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipes",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serpentarius13/forkify.git"
+  },
+  "author": "Serpentarius",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serpentarius13/forkify/issues"
+  },
+  "homepage": "https://github.com/Serpentarius13/forkify#readme",
+  "dependencies": {
+    "core-js": "^3.25.5",
+    "fractional": "^1.0.0",
+    "node": "^19.0.0",
+    "parcel": "^2.7.0",
+    "regenerator-runtime": "^0.13.10"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0"
+  }
+}
